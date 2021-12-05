@@ -84,6 +84,15 @@
             <version>${jackson.version}</version>
             <scope>compile</scope>
         </dependency>
+
+        <!--    Easy4Form   -->
+        <dependency>
+            <groupId>cn.cookiestudio</groupId>
+            <artifactId>Easy4Form</artifactId>
+            <version>1.0.3</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/Easy4Form-1.0.3.jar</systemPath>
+        </dependency>
     </dependencies>
 
 </project>
