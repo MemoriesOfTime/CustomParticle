@@ -6,7 +6,7 @@
 
     <groupId>cn.cookiestudio</groupId>
     <artifactId>CustomParticle</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.4-PM1E</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -52,14 +52,18 @@
             <id>ck</id>
             <url>http://nz.ipyvps.com:1111/repository/cookie-studio/</url>
         </repository>
+        <repository>
+            <id>repo-lanink-cn</id>
+            <url>https://repo.lanink.cn/</url>
+        </repository>
     </repositories>
 
     <dependencies>
         <!-- Nukkit -->
         <dependency>
             <groupId>cn.nukkit</groupId>
-            <artifactId>nukkit</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <artifactId>Nukkit</artifactId>
+            <version>PM1E</version>
             <scope>provided</scope>
         </dependency>
 
