@@ -9,6 +9,8 @@
     <version>1.0.4-PM1E</version>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <jackson.version>2.12.3</jackson.version>
@@ -85,13 +87,12 @@
             <scope>compile</scope>
         </dependency>
 
-        <!--    Easy4Form   -->
+        <!--    MemoriesOfTime-GameCore   -->
         <dependency>
-            <groupId>cn.cookiestudio</groupId>
-            <artifactId>Easy4Form</artifactId>
-            <version>1.0.3</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/Easy4Form-1.0.3.jar</systemPath>
+            <groupId>cn.lanink</groupId>
+            <artifactId>MemoriesOfTime-GameCore</artifactId>
+            <version>1.4.0</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
